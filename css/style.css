@@ -1,0 +1,85 @@
+.bg {
+  position: relative;
+  z-index: 0;
+}
+@media (min-width: 800px) {
+  .bg img.mobile {
+    display: none;
+  }
+}
+.bg img.desktop {
+  display: none;
+}
+@media (min-width: 800px) {
+  .bg img.desktop {
+    display: block;
+  }
+}
+
+.ask__one,
+.ask__two,
+.ask__three {
+  width: 76%;
+}
+
+.ask__one:hover,
+.ask__two:hover,
+.ask__three:hover,
+.ask__four:hover {
+  color: rgb(173, 40, 235);
+  cursor: pointer;
+}
+
+.main__section {
+  position: relative;
+  margin: -5.563rem auto 0 auto;
+  border-radius: 0.625rem;
+  width: 87.2%;
+  background-color: var(--clr-White);
+  z-index: 1;
+}
+@media (min-width: 600px) {
+  .main__section {
+    margin: -11.563rem auto 0 auto;
+    width: 70.2%;
+  }
+}
+@media (min-width: 800px) {
+  .main__section {
+    margin: -5.563rem auto 0 auto;
+    width: 55.2%;
+  }
+}
+.main__section .main__section-title {
+  display: flex;
+  align-items: center;
+  width: 38.8%;
+  padding: 1.5rem 0;
+}
+.main__section .main__section-title .star__icon {
+  width: 17%;
+  margin: 0 1.5rem;
+}
+.main__section .main__section-title .faq__title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.main__section .faq__one .ask__btn {
+  margin-bottom: 1.5rem;
+}
+.main__section .faq__two .ask__btn {
+  display: flex;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.main__section .faq__three .ask__btn {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.main__section .faq__four .ask__btn {
+  padding-top: 1.25rem;
+  padding-bottom: 1.5rem;
+}
+.main__section .faq__four .ask__btn .ask__four {
+  width: 70%;
+}/*# sourceMappingURL=style.css.map */

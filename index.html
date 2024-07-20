@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | FAQ accordion</title>
+  </head>
+  <body>
+    <div class="bg">
+      <img
+        src="./images/background-pattern-mobile.svg"
+        alt="background for mobile website"
+        class="mobile"
+      />
+      <img
+        src="./images/background-pattern-desktop.svg"
+        alt="background for desktop website"
+        class="desktop"
+      />
+    </div>
+    <main class="main__section">
+      <section class="main__section-title">
+        <div class="star__icon">
+          <img src="./images/icon-star.svg" alt="star_icon" />
+        </div>
+        <h1 class="card__title">FAQs</h1>
+      </section>
+
+      <section class="faq__one">
+        <div class="ask__btn">
+          <h2 class="ask__one">
+            What is Frontend Mentor, and how will it help me?
+          </h2>
+          <div class="toggle__btns" onclick="toggleOne()">
+            <button class="plus__btn">
+              <img src="./images/icon-plus.svg" alt="" class="plus__btn-img" />
+            </button>
+            <button class="minus__btn">
+              <img
+                src="./images/icon-minus.svg"
+                alt=""
+                class="minus__btn-img hide"
+              />
+            </button>
+          </div>
+        </div>
+
+        <p class="answer__one same__style-text hide">
+          Frontend Mentor offers realistic coding challenges to help developers
+          improve their frontend coding skills with projects in HTML, CSS, and
+          JavaScript.It's suitable for all levels and ideal for portfolio
+          building.
+        </p>
+      </section>
+      <div class="line"></div>
+
+      <section class="faq__two">
+        <div class="ask__btn margin__change">
+          <h2 class="ask__two">Is Frontend Mentor free?</h2>
+          <div class="toggle__btns" onclick="toggleTwo()">
+            <button class="plus__btn">
+              <img
+                src="./images/icon-plus.svg"
+                alt=""
+                class="plus__btn-img-two"
+              />
+            </button>
+            <button class="minus__btn">
+              <img
+                src="./images/icon-minus.svg"
+                alt=""
+                class="minus__btn-img-two hide"
+              />
+            </button>
+          </div>
+        </div>
+
+        <p class="answer__two same__style-text hide">
+          Yes, Frontend Mentor offers both free and premium coding challenges,
+          with the free option providing access to a range of projects suitable
+          for all skill levels.
+        </p>
+      </section>
+      <div class="line"></div>
+      <section class="faq__three">
+        <div class="ask__btn margin__change">
+          <h2 class="ask__three">
+            Can I use Frontend Mentor projects in my portfolio?
+          </h2>
+          <div class="toggle__btns" onclick="toggleThree()">
+            <button class="plus__btn">
+              <img
+                src="./images/icon-plus.svg"
+                alt=""
+                class="plus__btn-img-three"
+              />
+            </button>
+            <button class="minus__btn">
+              <img
+                src="./images/icon-minus.svg"
+                alt=""
+                class="minus__btn-img-three hide"
+              />
+            </button>
+          </div>
+        </div>
+
+        <p class="answer__three same__style-text hide">
+          Yes, you can use projects completed on Frontend Mentor in your
+          portfolio. It's an excellent way to showcase your skills to potential
+          employers!
+        </p>
+      </section>
+      <div class="line"></div>
+      <section class="faq__four">
+        <div class="ask__btn margin__change">
+          <h2 class="ask__four">
+            How can I get help if I'm stuck on a challenge?
+          </h2>
+          <div class="toggle__btns" onclick="toggleFour()">
+            <button class="plus__btn">
+              <img
+                src="./images/icon-plus.svg"
+                alt=""
+                class="plus__btn-img-four"
+              />
+            </button>
+            <button class="minus__btn">
+              <img
+                src="./images/icon-minus.svg"
+                alt=""
+                class="minus__btn-img-four hide"
+              />
+            </button>
+          </div>
+        </div>
+
+        <p class="answer__four same__style-text hide">
+          The best place to get help is inside Frontend Mentor's Discord
+          community. There's a help channel where you can ask questions and seek
+          support from other community members.
+        </p>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mohamed Hussein</a>.
+    </div>
+    <script src="./js/active.js"></script>
+  </body>
+</html>
