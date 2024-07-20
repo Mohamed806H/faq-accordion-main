@@ -50,6 +50,11 @@
     width: 55.2%;
   }
 }
+@media (min-width: 1280px) {
+  .main__section {
+    width: 45.2%;
+  }
+}
 .main__section .main__section-title {
   display: flex;
   align-items: center;
@@ -82,4 +87,7 @@
 }
 .main__section .faq__four .ask__btn .ask__four {
   width: 70%;
+}
+.main__section .faq__four .answer__four {
+  padding-bottom: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
